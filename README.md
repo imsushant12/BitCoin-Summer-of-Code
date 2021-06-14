@@ -6,7 +6,7 @@ Bitcoin miners construct blocks by selecting a set of transactions from their me
 
 The miner selects an ordered list of transactions which have a combined weight below the maximum block weight. Transactions with parent transactions in the
 mempool may be included in the list, but only if all of their parents appear before them in the list.<br>
-Naturally, the miner would like to include the transactions that maximize the total fee.<br>
+Naturally, the miner would like to include the transactions that maximize the total fee.<br><br>
 Your task is to write a program which reads a file mempool.csv, with the format:
 <txid>,<fee>,<weight>,<parent_txids>
 - txid is the transaction identifier
